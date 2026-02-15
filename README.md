@@ -100,7 +100,8 @@ Additional scripts are provided in the `scripts/` directory to generate ANI matr
 #- create_ani_matrix.py → Converts OrthoANI_results.tsv into square ANI matrix
 - heatmap_python.py → Generates clustered heatmap using seaborn/matplotlib
 - heatmap_R.R → Generates heatmap using pheatmap in R
-
+- Diagonal_Heatmap_dendrogram.py
+   (python Diagonal_Heatmap_dendrogram.py OrthoANI_results.tsv)
 These scripts are optional and intended for visualization of genome similarity.
 
 
