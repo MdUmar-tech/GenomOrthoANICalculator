@@ -93,6 +93,17 @@ Each genome pair also has its own working directory containing:
 
 ---
 
+## Visualization Scripts
+
+Additional scripts are provided in the `scripts/` directory to generate ANI matrices and heatmaps.
+
+#- create_ani_matrix.py → Converts OrthoANI_results.tsv into square ANI matrix
+- heatmap_python.py → Generates clustered heatmap using seaborn/matplotlib
+- heatmap_R.R → Generates heatmap using pheatmap in R
+
+These scripts are optional and intended for visualization of genome similarity.
+
+
 ## Citation
 
 If you use this tool, please cite:
