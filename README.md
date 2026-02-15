@@ -1,14 +1,13 @@
 # GenomOrthoANICalculator
 
-A Python implementation of the OrthoANI algorithm for calculating pairwise Average Nucleotide Identity (ANI) among multiple genome sequences.
+A lightweight Python-based command-line pipeline implementing the OrthoANI algorithm for calculating pairwise Average Nucleotide Identity (ANI) among multiple genome sequences.
 
 This implementation is based on:
 
 Lee et al. (2016). OrthoANI: An improved algorithm and software for calculating average nucleotide identity. 
-International Journal of Systematic and Evolutionary Microbiology.
-DOI: 10.1099/ijsem.0.000760
+International Journal of Systematic and Evolutionary Microbiology.DOI: 10.1099/ijsem.0.000760
 
-Unlike the original Java-based OAT software, this tool enables automated batch processing of multiple genome files placed within a single directory.
+In contrast to the original Java-based OAT software described by Lee et al. (2016), this implementation provides automated batch processing of multiple genome FASTA files within a single directory.
 
 ---
 
