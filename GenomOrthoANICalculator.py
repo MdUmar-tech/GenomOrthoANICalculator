@@ -7,7 +7,7 @@ import subprocess
 import pandas as pd
 from Bio import SeqIO
 
-
+__version__ = "1.0"
 # --------------------------------------------------
 # Argument Parser
 # --------------------------------------------------
