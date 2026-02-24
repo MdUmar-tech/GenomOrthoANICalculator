@@ -125,7 +125,7 @@ MIT License
 
 ## Background
 
-This tool was originally developed during my PhD (2020) after encountering practical limitations while using the Java-based GUI OAT (OrthoANI Tool) on macOS (Intel).
+This tool was originally developed during my PhD after encountering several issue due to java while using the Java-based GUI OAT (OrthoANI Tool) on macOS-2020 (Intel).
 
 To enable reproducible, large-scale, command-line ANI analysis, I independently implemented the OrthoANI algorithm (Lee et al., 2016) in Python with full batch automation support.
 
