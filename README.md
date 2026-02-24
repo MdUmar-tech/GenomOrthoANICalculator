@@ -17,7 +17,7 @@ This tool was originally developed during my PhD (2020) after encountering Java/
 
 To enable reproducible, large-scale, command-line ANI analysis, I independently implemented the OrthoANI algorithm (Lee et al., 2016) in Python with full batch automation support.
 
-Unlike the original GUI-based OAT and web-based implementations (e.g., EZBioCloud OrthoANI), this version supports unlimited genome comparisons and is designed for Unix/Linux server and HPC environments.
+Unlike the original GUI-based OAT implementations (e.g., EZBioCloud, OrthoANI), this version supports unlimited genome comparisons and is designed for Unix/Linux server and HPC environments.
 
 ---
 
