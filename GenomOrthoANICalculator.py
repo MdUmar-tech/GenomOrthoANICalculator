@@ -186,6 +186,7 @@ def main():
 
     for genome in genomes:
         name = os.path.splitext(os.path.basename(genome))[0]
+        name = re.sub(r"\s+", "_", name)   # replace spaces with _
 
         frag_file = os.path.join(fragment_dir, f"{name}_frag.fasta")
         db_file = os.path.join(db_dir, f"{name}_db")
