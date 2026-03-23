@@ -26,8 +26,9 @@ def parse_args():
 
     parser.add_argument("--threads", type=int, default=2,
                         help="Threads for BLAST (default=2)")
-   parser.add_argument( "--version", action="version", version="GenomOrthoANICalculator v1.0.0"
-)
+
+    parser.add_argument("--version", action="version",
+                        version="GenomOrthoANICalculator v1.0.0")
 
     return parser.parse_args()
 
